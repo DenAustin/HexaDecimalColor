@@ -1,0 +1,71 @@
+#container > div {
+  width: 100%;
+  height: 70px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  display: flex;
+	justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+/*Style the main */
+#display {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: sandybrown;
+}
+
+.mainForm {
+  display: flex;
+}
+
+.buttons {
+  margin-left: 3px;
+}
+
+.genBtn{
+  background-color: green;
+  padding: 5px 0;
+  border: 0;
+  
+}
+#button{
+  background-color: red;
+  padding: 5px 2px;
+  
+}
+#inputField{
+  padding: 5px 2px;
+}
+
+.coloIconWrap{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50%;
+  
+  
+}
+
+.copyButton{
+  padding: 7px;
+}
+
+.copyIcon{
+  margin-right: 5px;
+}
+.colorBlock{
+  padding: 5px;
+}
+
+.copyBtnDiv{
+  padding: 7px;
+}
